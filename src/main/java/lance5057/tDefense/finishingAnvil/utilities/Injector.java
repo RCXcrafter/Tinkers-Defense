@@ -298,14 +298,6 @@ public class Injector extends ToolCore
 		tt.handleTT.add("Ornate Handle");
 		handles.add("_longornate_handle");
 		tt.handleTT.add("Long Ornate Handle");
-		handles.add("_offset_handle");
-		tt.handleTT.add("Offset Handle");
-		handles.add("_offsetlong_handle");
-		tt.handleTT.add("Offset Long Handle");
-		handles.add("_offsetornate_handle");
-		tt.handleTT.add("Offset Ornate Handle");
-		handles.add("_offsetlongornate_handle");
-		tt.handleTT.add("Offset Long Ornate Handle");
 
 		tools.put("Hatchet", tt);
 	}
