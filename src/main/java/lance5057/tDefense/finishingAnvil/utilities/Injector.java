@@ -371,6 +371,8 @@ public class Injector extends ToolCore
 		tt.headTT.add("Hourglass Blade");
 		heads.add("_flat_head");
 		tt.headTT.add("Flat Tip Blade");
+		heads.add("_transforming_head");
+		tt.headTT.add("Transforming Blade");
 
 		heads.add("_m5zinc_head");
 		tt.headTT.add("Metallurgy 5 Zinc Blade");
@@ -390,8 +392,6 @@ public class Injector extends ToolCore
 		tt.headTT.add("Metallurgy 5 NickelSteel Blade");
 		heads.add("_m5nickel_head");
 		tt.headTT.add("Metallurgy 5 Nickel Blade");
-		heads.add("_m5monel_head");
-		tt.headTT.add("Metallurgy 5 Monel Blade");
 		heads.add("_m5molybdochalkos_head");
 		tt.headTT.add("Metallurgy 5 Molybdochalkos Blade");
 		heads.add("_m5manganesesteel_head");
@@ -400,8 +400,6 @@ public class Injector extends ToolCore
 		tt.headTT.add("Metallurgy 5 Manganese Blade");
 		heads.add("_m5lead_head");
 		tt.headTT.add("Metallurgy 5 Lead Blade");
-		heads.add("_m5iron_head");
-		tt.headTT.add("Metallurgy 5 Iron Blade");
 		heads.add("_m5ignatius_head");
 		tt.headTT.add("Metallurgy 5 Ignatius Blade");
 		heads.add("_m5hepatizon_head");
@@ -418,14 +416,10 @@ public class Injector extends ToolCore
 		tt.headTT.add("Metallurgy 5 Diamond Blade");
 		heads.add("_m5damascussteel_head");
 		tt.headTT.add("Metallurgy 5 DamascusSteel Blade");
-		heads.add("_m5cupronickel_head");
-		tt.headTT.add("Metallurgy 5 Cupronickel Blade");
 		heads.add("_m5crowngold_head");
 		tt.headTT.add("Metallurgy 5 CrownGold Blade");
 		heads.add("_m5copper_head");
 		tt.headTT.add("Metallurgy 5 Copper Blade");
-		heads.add("_m5bronze_head");
-		tt.headTT.add("Metallurgy 5 Bronze Blade");
 		heads.add("_m5brass_head");
 		tt.headTT.add("Metallurgy 5 Brass Blade");
 		heads.add("_m5angmallen_head");
@@ -447,10 +441,13 @@ public class Injector extends ToolCore
 		accessories.add("_lamenting_accessory");
 		accessories.add("_pixie_accessory");
 		accessories.add("_forked_accessory");
+		accessories.add("_transforming_accessory");
 
 		handles.add("_ornate_handle");
 		handles.add("_thick_handle");
 		handles.add("_short_handle");
+		handles.add("_long_handle");
+		handles.add("_long_ornate_handle");
 
 		tools.put("Broadsword", tt);
 	}
