@@ -202,12 +202,10 @@ public class Injector extends ToolCore
 		extras.add("_magic_extra");
 		extras.add("_scythe_extra");
 		extras.add("_halbard_extra");
-		extras.add("_ornate_extra");
 
 		tt.extraTT.add("Halbard Head");
 		tt.extraTT.add("Magic Head");
 		tt.extraTT.add("Scythe Head");
-		tt.extraTT.add("Ornate Head");
 
 		accessories.add("_magic_accessory");
 		accessories.add("_halbard_accessory");
@@ -304,6 +302,7 @@ public class Injector extends ToolCore
 
 	void Battlesign()
 	{
+		handles.add("_long_handle");
 		handles.add("_small_handle");
 		handles.add("_smalllong_handle");
 
