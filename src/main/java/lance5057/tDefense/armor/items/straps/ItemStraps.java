@@ -19,10 +19,10 @@ public class ItemStraps extends ItemArmor
 		// ItemStacks that store an NBT Tag Compound are limited to stack size of 1
 		setMaxStackSize(1);
 		// you'll want to set a creative tab as well, so you can get your item
-		setCreativeTab(CoreBase.tab);
+		//setCreativeTab(CoreBase.tab);
 	}
 
-	// Without this method, your inventory will NOT work!!!
+	/*// Without this method, your inventory will NOT work!!!
 	@Override
 	public int getMaxItemUseDuration(ItemStack stack) {
 		return 1; // return any value greater than zero
@@ -40,5 +40,5 @@ public class ItemStraps extends ItemArmor
 		}
 		
 		return new ActionResult(EnumActionResult.PASS, itemStack);
-	}
+	}*/
 }

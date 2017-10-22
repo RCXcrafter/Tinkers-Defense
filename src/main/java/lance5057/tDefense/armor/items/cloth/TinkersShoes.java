@@ -7,7 +7,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
 public class TinkersShoes extends ArmorCore
-{
+{/*
 	int	induceDamage	= 0;
 	
 
@@ -24,7 +24,7 @@ public class TinkersShoes extends ArmorCore
 	{
 		super.onUpdate(stack, world, entity, par4, par5);
 
-	}
+	}*/
 
 	@Override
 	public float damagePotential() {

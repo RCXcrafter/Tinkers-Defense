@@ -10,7 +10,7 @@ public class TDOreDictItem extends Item {
 		setUnlocalizedName(pre + "_" + name);
 		setRegistryName(pre + "_" + name);
 		prefix = pre;
-		this.setCreativeTab(CoreBase.tab);
+		//this.setCreativeTab(CoreBase.tab);
 	}
 
 	public boolean isOreDict() {

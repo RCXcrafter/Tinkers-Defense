@@ -44,7 +44,7 @@ public class ClientProxy extends CommonProxy {
 
 	ToolBuildGuiInfo zweihanderGUI;
 	ToolBuildGuiInfo shearsGUI;
-	ToolBuildGuiInfo fishingRodGUI;
+	/*ToolBuildGuiInfo fishingRodGUI;
 
 	ToolBuildGuiInfo hoodGUI;
 	ToolBuildGuiInfo shawlGUI;
@@ -63,7 +63,7 @@ public class ClientProxy extends CommonProxy {
 
 	ToolBuildGuiInfo sheatheGUI;
 	ToolBuildGuiInfo ringGUI;
-	ToolBuildGuiInfo amuletGUI;
+	ToolBuildGuiInfo amuletGUI;*/
 
 	public static SheatheModel sheathe;
 
@@ -105,7 +105,7 @@ public class ClientProxy extends CommonProxy {
 		ModelRegisterUtil.registerToolModel(TDTools.heatershield);
 		ModelRegisterUtil.registerToolModel(TDTools.zweihander);
 		ModelRegisterUtil.registerToolModel(TDTools.shears);
-		ModelRegisterUtil.registerToolModel(TDTools.fishingRod);
+		/*ModelRegisterUtil.registerToolModel(TDTools.fishingRod);
 
 		ModelRegisterUtil.registerToolModel(TDTools.hood);
 		ModelRegisterUtil.registerToolModel(TDTools.shawl);
@@ -114,7 +114,7 @@ public class ClientProxy extends CommonProxy {
 
 		ModelRegisterUtil.registerToolModel(TDTools.sheathe);
 		ModelRegisterUtil.registerToolModel(TDTools.ring);
-		ModelRegisterUtil.registerToolModel(TDTools.amulet);
+		ModelRegisterUtil.registerToolModel(TDTools.amulet);*/
 	}
 
 	public void createToolGuis() {
@@ -122,7 +122,7 @@ public class ClientProxy extends CommonProxy {
 		heatershieldGUI = new ToolBuildGuiInfo(TDTools.heatershield);
 		zweihanderGUI = new ToolBuildGuiInfo(TDTools.zweihander);
 		shearsGUI = new ToolBuildGuiInfo(TDTools.shears);
-		fishingRodGUI = new ToolBuildGuiInfo(TDTools.fishingRod);
+		/*fishingRodGUI = new ToolBuildGuiInfo(TDTools.fishingRod);
 
 		hoodGUI = new ToolBuildGuiInfo(TDTools.hood);
 		shawlGUI = new ToolBuildGuiInfo(TDTools.shawl);
@@ -131,7 +131,7 @@ public class ClientProxy extends CommonProxy {
 
 		sheatheGUI = new ToolBuildGuiInfo(TDTools.sheathe);
 		ringGUI = new ToolBuildGuiInfo(TDTools.ring);
-		amuletGUI = new ToolBuildGuiInfo(TDTools.amulet);
+		amuletGUI = new ToolBuildGuiInfo(TDTools.amulet);*/
 
 	}
 
@@ -150,7 +150,7 @@ public class ClientProxy extends CommonProxy {
 		zweihanderGUI.addSlotPosition(43, 33 + 8);
 		zweihanderGUI.addSlotPosition(34, 51 + 8);
 
-		hoodGUI.addSlotPosition(34, 15 + 8);
+		/*hoodGUI.addSlotPosition(34, 15 + 8);
 		hoodGUI.addSlotPosition(43, 33 + 8);
 		hoodGUI.addSlotPosition(34, 51 + 8);
 
@@ -164,15 +164,15 @@ public class ClientProxy extends CommonProxy {
 
 		shoesGUI.addSlotPosition(34, 15 + 8);
 		shoesGUI.addSlotPosition(43, 33 + 8);
-		shoesGUI.addSlotPosition(34, 51 + 8);
+		shoesGUI.addSlotPosition(34, 51 + 8);*/
 
 		shearsGUI.addSlotPosition(34, 15 + 8);
 		shearsGUI.addSlotPosition(43, 33 + 8);
 		shearsGUI.addSlotPosition(34, 51 + 8);
 
-		ringGUI.addSlotPosition(34, 15 + 8);
+		/*ringGUI.addSlotPosition(34, 15 + 8);
 		ringGUI.addSlotPosition(43, 33 + 8);
-		ringGUI.addSlotPosition(34, 51 + 8);
+		ringGUI.addSlotPosition(34, 51 + 8);*/
 	}
 
 	public void registerToolGuis() {
@@ -180,7 +180,7 @@ public class ClientProxy extends CommonProxy {
 		TinkerRegistryClient.addToolBuilding(heatershieldGUI);
 		TinkerRegistryClient.addToolBuilding(zweihanderGUI);
 		TinkerRegistryClient.addToolBuilding(shearsGUI);
-		TinkerRegistryClient.addToolBuilding(fishingRodGUI);
+		/*TinkerRegistryClient.addToolBuilding(fishingRodGUI);
 
 		TinkerRegistryClient.addToolBuilding(hoodGUI);
 		TinkerRegistryClient.addToolBuilding(shawlGUI);
@@ -189,19 +189,19 @@ public class ClientProxy extends CommonProxy {
 
 		TinkerRegistryClient.addToolBuilding(sheatheGUI);
 		TinkerRegistryClient.addToolBuilding(ringGUI);
-		TinkerRegistryClient.addToolBuilding(amuletGUI);
+		TinkerRegistryClient.addToolBuilding(amuletGUI);*/
 	}
 
 	public void registerPartModels() {
 		ModelRegisterUtil.registerPartModel(TDParts.armorPlate);
-		ModelRegisterUtil.registerPartModel(TDParts.chainmail);
+		/*ModelRegisterUtil.registerPartModel(TDParts.chainmail);
 		ModelRegisterUtil.registerPartModel(TDParts.clasp);
 		ModelRegisterUtil.registerPartModel(TDParts.cloth);
 		ModelRegisterUtil.registerPartModel(TDParts.filigree);
-		ModelRegisterUtil.registerPartModel(TDParts.ringShank);
+		ModelRegisterUtil.registerPartModel(TDParts.ringShank);*/
 		ModelRegisterUtil.registerPartModel(TDParts.rivets);
-		ModelRegisterUtil.registerPartModel(TDParts.setting);
-		ModelRegisterUtil.registerPartModel(TDParts.wire);
+		/*ModelRegisterUtil.registerPartModel(TDParts.setting);
+		ModelRegisterUtil.registerPartModel(TDParts.wire);*/
 	}
 
 	@Override
@@ -227,7 +227,7 @@ public class ClientProxy extends CommonProxy {
 		zweihanderGUI.addSlotPosition(43, 33);
 		zweihanderGUI.addSlotPosition(34, 51);
 
-		hoodGUI.positions.clear();
+		/*hoodGUI.positions.clear();
 		hoodGUI.addSlotPosition(34, 15 + 8);
 		hoodGUI.addSlotPosition(43, 33 + 8);
 		hoodGUI.addSlotPosition(34, 51 + 8);
@@ -245,14 +245,14 @@ public class ClientProxy extends CommonProxy {
 		shoesGUI.positions.clear();
 		shoesGUI.addSlotPosition(34, 15 + 8);
 		shoesGUI.addSlotPosition(43, 33 + 8);
-		shoesGUI.addSlotPosition(34, 51 + 8);
+		shoesGUI.addSlotPosition(34, 51 + 8);*/
 
 		shearsGUI.positions.clear();
 		shearsGUI.addSlotPosition(34, 15 + 8);
 		shearsGUI.addSlotPosition(43, 33 + 8);
 		shearsGUI.addSlotPosition(34, 51 + 8);
 
-		fishingRodGUI.positions.clear();
+		/*fishingRodGUI.positions.clear();
 		fishingRodGUI.addSlotPosition(34, 15 + 8);
 		fishingRodGUI.addSlotPosition(43, 33 + 8);
 		fishingRodGUI.addSlotPosition(34, 51 + 8);
@@ -270,7 +270,7 @@ public class ClientProxy extends CommonProxy {
 		amuletGUI.positions.clear();
 		amuletGUI.addSlotPosition(34, 15);
 		amuletGUI.addSlotPosition(34, 33);
-		amuletGUI.addSlotPosition(34, 51);
+		amuletGUI.addSlotPosition(34, 51);*/
 	}
 
 	void createToolModels() {

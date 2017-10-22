@@ -9,12 +9,12 @@ import slimeknights.tconstruct.library.tinkering.PartMaterialType;
 import slimeknights.tconstruct.tools.TinkerTools;
 
 public class Amulet extends BaubleTool
-{
+{/*
 	public Amulet()
 	{
 		super(PartMaterialType.head(TDParts.setting), PartMaterialType.handle(TDParts.chainmail),
 				PartMaterialType.extra(TDParts.clasp));
-	}
+	}*/
 	
 	@Override
 	public BaubleType getBaubleType(ItemStack itemstack) {

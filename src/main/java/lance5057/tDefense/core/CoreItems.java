@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class CoreItems extends ItemsBase
 {
-	public static Item item_straps;
+	//public static Item item_straps;
 	
 	public CoreItems()
 	{
@@ -27,8 +27,8 @@ public class CoreItems extends ItemsBase
 	public void init(FMLInitializationEvent e) 
 	{
 		
-		item_straps = new ItemStraps().setMaxStackSize(1).setUnlocalizedName("straps").setRegistryName(Reference.MOD_ID, "straps");
-		GameRegistry.register(item_straps);
+		//item_straps = new ItemStraps().setMaxStackSize(1).setUnlocalizedName("straps").setRegistryName(Reference.MOD_ID, "straps");
+		//GameRegistry.register(item_straps);
 	}
 
 	@Override

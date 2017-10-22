@@ -13,7 +13,7 @@ import slimeknights.mantle.client.CreativeTab;
 
 public class CoreBase extends ModuleBase
 {
-	public static CreativeTabs tab;
+	//public static CreativeTabs tab;
 	
 	public ItemsBase items;
 	public BlocksBase blocks;
@@ -26,7 +26,7 @@ public class CoreBase extends ModuleBase
 
 	@Override
 	public void preInit(FMLPreInitializationEvent e) {
-		tab = new CreativeTab("TDefense_Core", new ItemStack(Items.SHIELD));
+		//tab = new CreativeTab("TDefense_Core", new ItemStack(Items.SHIELD));
 		
 		// TODO Auto-generated method stub
 		items.preInit(e);

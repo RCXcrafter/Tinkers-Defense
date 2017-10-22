@@ -54,7 +54,7 @@ public class CrestMount extends BlockContainer implements ITileEntityProvider {
 		GameRegistry.registerTileEntity(TileEntity_CrestMount.class, Reference.MOD_ID + "_crestmount");
 	}
 
-	@Override
+	/*@Override
 	protected BlockStateContainer createBlockState() {
 		return new BlockStateContainer(this, new IProperty[] { FACING });
 	}
@@ -200,7 +200,7 @@ public class CrestMount extends BlockContainer implements ITileEntityProvider {
 		}
 	}
 
-	@Override
+	*/@Override
 	public TileEntity createNewTileEntity(World w, int md) {
 		final TileEntity_CrestMount te = new TileEntity_CrestMount();
 		return te;

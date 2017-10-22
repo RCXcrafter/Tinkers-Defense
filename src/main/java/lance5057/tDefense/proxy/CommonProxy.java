@@ -64,7 +64,7 @@ public class CommonProxy implements IGuiHandler
 	@Override
 	public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z)
 	{
-		if(ID == TinkersDefense.GUI_CREST_INV)
+		/*if(ID == TinkersDefense.GUI_CREST_INV)
 			return new Container_CrestMount(player.inventory,
 					(TileEntity_CrestMount) world.getTileEntity(new BlockPos(x, y, z)));
 //		if(ID == TinkersDefense.GUI_ANVIL_INV)
@@ -72,14 +72,14 @@ public class CommonProxy implements IGuiHandler
 //					(TileEntity_FinishingAnvil) world.getTileEntity(x, y, z));
 		if(ID == TinkersDefense.GUI_STRAPS_INV)
 			return new StrapsContainer(player, player.inventory, new ItemStrapsInv(player.getHeldItem(EnumHand.MAIN_HAND)));
-
+*/
 		return null;
 	}
 
 	@Override
 	public Object getClientGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z)
 	{
-		if(ID == TinkersDefense.GUI_CREST_INV)
+		/*if(ID == TinkersDefense.GUI_CREST_INV)
 			return new Gui_CrestMount(player.inventory,
 					(TileEntity_CrestMount) world.getTileEntity(new BlockPos(x, y, z)));
 //		if(ID == TinkersDefense.GUI_ANVIL_INV)
@@ -87,7 +87,7 @@ public class CommonProxy implements IGuiHandler
 //					(TileEntity_FinishingAnvil) world.getTileEntity(x, y, z));
 		if(ID == TinkersDefense.GUI_STRAPS_INV)
 			return new StrapsGui((StrapsContainer) new StrapsContainer(player, player.inventory, new ItemStrapsInv(player.getHeldItem(EnumHand.MAIN_HAND))));
-		return null;
+		*/return null;
 	}
 	
 	public void registerItemRenderer(Item item, int meta, String id)

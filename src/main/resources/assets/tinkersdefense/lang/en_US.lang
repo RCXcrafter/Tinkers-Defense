@@ -587,8 +587,29 @@
 // soul.Steve.story.3.2=It's a big concern for me...
 // soul.Steve.story.3.3=What do you think?"
 
-item.shield.name=Buckler
-item.shield.desc=A small shield with low protection but with the ability to counter attacks, slowing down your opponent. Due to its small size it can't hold as many modifiers.
+item.roundshield.name=Buckler
+item.roundshield.desc=A small shield with low protection but with the ability to counter attacks, slowing down your opponent. Due to its small size it can't hold as many modifiers.
 
 item.heatershield.name=Heater Shield
 item.heatershield.desc=A standard shield designed to protect from all incoming attacks while still being mobile.
+
+item.zweihander.name=Zweihander
+item.zweihander.desc=A great two handed sword designed to take down horse and rider or keep enemies back with its long reach.\n \n x2 Damage against mounted enemies \n Ability: Great Swing - \n Hit all enemies close to you with a great arching slash. Leaves you slowed and weakened temporarily.
+
+item.shears.desc=A set of sharpened blades bound together to allow shearing of sheep and tree leaves.
+
+item.armor_plate.name=Armor Plate
+
+item.rivets.name=Rivets
+
+modifier.securiphilic.name=Securiphilic
+modifier.securiphilic.desc=§oChop chop!§r\nEnemies have a chance of dropping thier weapon if it's an axe.
+modifier.dulling.name=Dulling
+modifier.dulling.desc=§oBad for your teeth!§r\nDoes extra damage to your enemies weapon when blocking.
+modifier.firestarter.name=Firestarter
+modifier.firestarter.desc=§oFire it up!§r\nCan create fire when another part in the tool is made of metal.
+modifier.barbed.name=Barbed
+modifier.barbed.desc=§oPrickly!§r\nHarms enemies when they attack you.
+modifier.dogtoy.name=Dogtoy
+modifier.dogtoy.desc=§oWoof!§r\nYour tool seems to attract hungry wolves.
+

@@ -23,21 +23,21 @@ public class TDParts extends ModuleBase
 	public static PartMaterialType ShieldMat;
 	
 	public static PartMaterialType ArmorplateMat;
-	public static PartMaterialType ChainmailMat;
+	//public static PartMaterialType ChainmailMat;
 	public static PartMaterialType RivetMat;
-	public static PartMaterialType ClaspMat;
-	public static PartMaterialType ClothMat;
+	//public static PartMaterialType ClaspMat;
+	//public static PartMaterialType ClothMat;
 	
 	public static ToolPart armorPlate;
-	public static ToolPart chainmail;
-	public static ToolPart cloth;
+	//public static ToolPart chainmail;
+	//public static ToolPart cloth;
 	public static ToolPart rivets;
-	public static ToolPart clasp;
+	//public static ToolPart clasp;
 	
-	public static ToolPart ringShank;
-	public static ToolPart setting;
-	public static ToolPart wire;
-	public static ToolPart filigree;
+	//public static ToolPart ringShank;
+	//public static ToolPart setting;
+	//public static ToolPart wire;
+	//public static ToolPart filigree;
 
 
 	@Override
@@ -49,22 +49,22 @@ public class TDParts extends ModuleBase
 //		
 //		TinkerRegistry.registerStencilTableCrafting(Pattern.setTagForPart(new ItemStack(TinkerTools.pattern), armorPlate));
 //		
-		chainmail = regToolPart(Material.VALUE_Ingot * 3, "chainmail");
-		cloth = regToolPart(Material.VALUE_Ingot * 3, "cloth");
+		//chainmail = regToolPart(Material.VALUE_Ingot * 3, "chainmail");
+		//cloth = regToolPart(Material.VALUE_Ingot * 3, "cloth");
 		rivets = regToolPart(Material.VALUE_Ingot * 1, "rivets");
-		clasp = regToolPart(Material.VALUE_Ingot * 1, "clasp");
+		//clasp = regToolPart(Material.VALUE_Ingot * 1, "clasp");
 		
-		ringShank = regToolPart(Material.VALUE_Ingot * 2, "ringShank");
-		setting = regToolPart(Material.VALUE_Ingot * 1, "setting");
-		wire = regToolPart(Material.VALUE_Ingot * 1, "wire");
-		filigree = regToolPart(Material.VALUE_Ingot * 1, "filigree");
+		//ringShank = regToolPart(Material.VALUE_Ingot * 2, "ringShank");
+		//setting = regToolPart(Material.VALUE_Ingot * 1, "setting");
+		//wire = regToolPart(Material.VALUE_Ingot * 1, "wire");
+		//filigree = regToolPart(Material.VALUE_Ingot * 1, "filigree");
 		
 		ShieldMat = new PartMaterialType(armorPlate, ShieldMaterialStats.TYPE);
 		ArmorplateMat = new PartMaterialType(armorPlate, MaterialArmor.TYPE);
-		ChainmailMat = new PartMaterialType(chainmail, MaterialArmor.TYPE);
+		//ChainmailMat = new PartMaterialType(chainmail, MaterialArmor.TYPE);
 		RivetMat = new PartMaterialType(rivets, MaterialTypes.EXTRA);
-		ClaspMat = new PartMaterialType(clasp, MaterialTypes.EXTRA);
-		ClothMat = new PartMaterialType(cloth, MaterialCloth.TYPE);
+		//ClaspMat = new PartMaterialType(clasp, MaterialTypes.EXTRA);
+		//ClothMat = new PartMaterialType(cloth, MaterialCloth.TYPE);
 	}
 
 	@Override

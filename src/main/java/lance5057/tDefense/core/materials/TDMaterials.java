@@ -239,7 +239,7 @@ public class TDMaterials {
 		
 		//TinkerRegistry.addMaterialStats(matAeonsteel, new ShieldMaterialStats(540, 33));
 
-		registerClothMaterials();
+		/*registerClothMaterials();
 		
 		addMat("aeonsteel", fluidAeonsteel, nuggetAeonsteel, ingotAeonsteel, dustAeonsteel);
 		addMat("queensgold", fluidQueensGold, nuggetQueensGold, ingotQueensGold, dustQueensGold);
@@ -273,7 +273,7 @@ public class TDMaterials {
 
 		registerMaterials();
 
-		//integrate(materials, materialIntegrations, deferredMaterials);
+		//integrate(materials, materialIntegrations, deferredMaterials);*/
 
 	}
 
@@ -355,9 +355,9 @@ public class TDMaterials {
 	}
 
 	void createItems(String name, Item nugget, Item ingot, Item dust) {
-		nugget.setCreativeTab(CoreBase.tab);
-		ingot.setCreativeTab(CoreBase.tab);
-		dust.setCreativeTab(CoreBase.tab);
+		//nugget.setCreativeTab(CoreBase.tab);
+		//ingot.setCreativeTab(CoreBase.tab);
+		//dust.setCreativeTab(CoreBase.tab);
 
 		GameRegistry.register(nugget);
 		GameRegistry.register(ingot);

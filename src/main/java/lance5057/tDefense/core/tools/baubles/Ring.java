@@ -9,12 +9,12 @@ import slimeknights.tconstruct.library.tinkering.PartMaterialType;
 import slimeknights.tconstruct.tools.TinkerTools;
 
 public class Ring extends BaubleTool
-{
+{/*
 	public Ring()
 	{
 		super(PartMaterialType.head(TDParts.ringShank), PartMaterialType.handle(TDParts.filigree),
 				PartMaterialType.extra(TDParts.setting));
-	}
+	}*/
 	
 	@Override
 	public BaubleType getBaubleType(ItemStack itemstack) {

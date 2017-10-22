@@ -33,7 +33,7 @@ public class TDTools {
 	public static ToolCore heatershield;
 	public static ToolCore zweihander;
 	public static ToolCore shears;
-	public static ToolCore fishingRod;
+	/*public static ToolCore fishingRod;
 
 	//armor
 	public static ToolCore hood;
@@ -54,7 +54,7 @@ public class TDTools {
 	//baubles
 	public static ToolCore sheathe;
 	public static ToolCore ring;
-	public static ToolCore amulet;
+	public static ToolCore amulet;*/
 
 	// Tool Parts
 
@@ -76,7 +76,7 @@ public class TDTools {
 		heatershield = new HeaterShield();
 		zweihander = new Zweihander();
 		shears = new Shears();
-		fishingRod = new FishingRod();
+		/*fishingRod = new FishingRod();
 
 		hood = new TinkersHood();
 		shawl = new TinkersShawl();
@@ -85,7 +85,7 @@ public class TDTools {
 		
 		sheathe = new Sheathe();
 		ring = new Ring();
-		amulet = new Amulet();
+		amulet = new Amulet();*/
 
 		MinecraftForge.EVENT_BUS.register(events);
 
@@ -105,7 +105,7 @@ public class TDTools {
 		regTool(heatershield, "heatershield");
 		regTool(zweihander, "zweihander");
 		regTool(shears, "shears");
-		regTool(fishingRod, "fishingRod");
+		/*regTool(fishingRod, "fishingRod");
 
 		regTool(hood, "hood");
 		regTool(shawl, "shawl");
@@ -114,7 +114,7 @@ public class TDTools {
 		
 		regTool(sheathe, "sheathe");
 		regTool(ring, "ring");
-		regTool(amulet, "amulet");
+		regTool(amulet, "amulet");*/
 
 		// TinkerRegistry.registerToolStationCrafting(roundshield);
 		// TinkerRegistry.registerToolForgeCrafting(heatershield);
@@ -145,7 +145,7 @@ public class TDTools {
 		TinkerRegistry.registerToolForgeCrafting(heatershield);
 		TinkerRegistry.registerToolForgeCrafting(zweihander);
 		TinkerRegistry.registerToolCrafting(shears);
-		TinkerRegistry.registerToolCrafting(fishingRod);
+		/*TinkerRegistry.registerToolCrafting(fishingRod);
 
 		TinkerRegistry.registerToolCrafting(hood);
 		TinkerRegistry.registerToolCrafting(shawl);
@@ -154,7 +154,7 @@ public class TDTools {
 		
 		TinkerRegistry.registerToolCrafting(sheathe);
 		TinkerRegistry.registerToolCrafting(ring);
-		TinkerRegistry.registerToolCrafting(amulet);
+		TinkerRegistry.registerToolCrafting(amulet);*/
 	}
 
 	private void regRecipies() {

@@ -29,17 +29,17 @@ import scala.reflect.internal.Trees.Modifiers;
 public class TinkersDefense {
 
 	private static int modGuiIndex = 0;
-	public static final int GUI_CREST_INV = modGuiIndex++;
+	//public static final int GUI_CREST_INV = modGuiIndex++;
 	//public static final int GUI_ANVIL_INV = modGuiIndex++;
 	//public static final int GUI_GUIDEBOOK = modGuiIndex++;
-	public static final int GUI_STRAPS_INV = modGuiIndex++;
+	//public static final int GUI_STRAPS_INV = modGuiIndex++;
 
 	@Instance(Reference.MOD_ID)
 	public static TinkersDefense instance = new TinkersDefense();
 	
 	PacketHandler phandler = new PacketHandler();
 
-	HolidayBase holiday;
+	//HolidayBase holiday;
 	ModuleBase core;
 	//ModuleBase armor;
 
@@ -57,7 +57,7 @@ public class TinkersDefense {
 	TDTools tools;
 	TDMaterials mats;
 
-	public static Block block_aeonsteelBlock;
+	/*public static Block block_aeonsteelBlock;
 	public static Fluid moltenaeonsteel;
 	public static Block moltenaeonsteelBlock;
 
@@ -75,7 +75,7 @@ public class TinkersDefense {
 
 	public static Block block_greenmintBlock;
 	public static Fluid moltengreenmint;
-	public static Block moltengreenmintBlock;
+	public static Block moltengreenmintBlock;*/
 
 	// public static Item item_RawSapphire;
 	// public static Item item_RawRuby;
@@ -123,7 +123,7 @@ public class TinkersDefense {
 		NetworkRegistry.INSTANCE.registerGuiHandler(TinkersDefense.instance, new CommonProxy());
 		
 		core = new CoreBase();
-		holiday = new HolidayBase();
+		//holiday = new HolidayBase();
 		//armor = new ArmorBase();
 		
 		mats = new TDMaterials();
@@ -327,7 +327,7 @@ public class TinkersDefense {
 
 		core.preInit(e);
 		//armor.preInit(e);
-		holiday.preInit(e);
+		//holiday.preInit(e);
 		mats.preInit(e);
 		parts.preInit(e);
 		tools.preInit(e);
@@ -349,7 +349,7 @@ public class TinkersDefense {
 
 		core.init(e);
 		//armor.init(e);
-		holiday.init(e);
+		//holiday.init(e);
 		mats.init(e);
 		parts.init(e);
 		tools.init(e);

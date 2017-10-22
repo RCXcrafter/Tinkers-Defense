@@ -19,7 +19,7 @@ public class TDMetalBlock extends Block {
 
 	public TDMetalBlock() {
 		super(Material.IRON);
-		this.setCreativeTab(CoreBase.tab);
+		//this.setCreativeTab(CoreBase.tab);
 		this.setHardness(5);
 		this.setResistance(30);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(METAL, EnumMetal.AEONSTEEL));
