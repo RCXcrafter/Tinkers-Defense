@@ -613,3 +613,6 @@ modifier.barbed.desc=§oPrickly!§r\nHarms enemies when they attack you.
 modifier.dogtoy.name=Dogtoy
 modifier.dogtoy.desc=§oWoof!§r\nYour tool seems to attract hungry wolves.
 
+stat.shield.durability.name=Shield Durability
+stat.shield.percentblocked.name=Damage Blocked
+
