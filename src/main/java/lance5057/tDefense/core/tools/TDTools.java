@@ -31,7 +31,7 @@ public class TDTools {
 	// Tools
 	public static ToolCore roundshield;
 	public static ToolCore heatershield;
-	public static ToolCore zweihander;
+	//public static ToolCore zweihander;
 	public static ToolCore shears;
 	/*public static ToolCore fishingRod;
 
@@ -74,7 +74,7 @@ public class TDTools {
 		// register items
 		roundshield = new RoundShield();
 		heatershield = new HeaterShield();
-		zweihander = new Zweihander();
+		//zweihander = new Zweihander();
 		shears = new Shears();
 		/*fishingRod = new FishingRod();
 
@@ -103,7 +103,7 @@ public class TDTools {
 
 		regTool(roundshield, "roundshield");
 		regTool(heatershield, "heatershield");
-		regTool(zweihander, "zweihander");
+		//regTool(zweihander, "zweihander");
 		regTool(shears, "shears");
 		/*regTool(fishingRod, "fishingRod");
 
@@ -143,7 +143,7 @@ public class TDTools {
 	private void regToolBuilding() {
 		TinkerRegistry.registerToolCrafting(roundshield);
 		TinkerRegistry.registerToolForgeCrafting(heatershield);
-		TinkerRegistry.registerToolForgeCrafting(zweihander);
+		//TinkerRegistry.registerToolForgeCrafting(zweihander);
 		TinkerRegistry.registerToolCrafting(shears);
 		/*TinkerRegistry.registerToolCrafting(fishingRod);
 

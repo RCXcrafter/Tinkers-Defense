@@ -42,7 +42,7 @@ public class ClientProxy extends CommonProxy {
 	ToolBuildGuiInfo roundshieldGUI;
 	ToolBuildGuiInfo heatershieldGUI;
 
-	ToolBuildGuiInfo zweihanderGUI;
+	//ToolBuildGuiInfo zweihanderGUI;
 	ToolBuildGuiInfo shearsGUI;
 	/*ToolBuildGuiInfo fishingRodGUI;
 
@@ -103,7 +103,7 @@ public class ClientProxy extends CommonProxy {
 	public void registerToolRenderers() {
 		ModelRegisterUtil.registerToolModel(TDTools.roundshield);
 		ModelRegisterUtil.registerToolModel(TDTools.heatershield);
-		ModelRegisterUtil.registerToolModel(TDTools.zweihander);
+		//ModelRegisterUtil.registerToolModel(TDTools.zweihander);
 		ModelRegisterUtil.registerToolModel(TDTools.shears);
 		/*ModelRegisterUtil.registerToolModel(TDTools.fishingRod);
 
@@ -120,7 +120,7 @@ public class ClientProxy extends CommonProxy {
 	public void createToolGuis() {
 		roundshieldGUI = new ToolBuildGuiInfo(TDTools.roundshield);
 		heatershieldGUI = new ToolBuildGuiInfo(TDTools.heatershield);
-		zweihanderGUI = new ToolBuildGuiInfo(TDTools.zweihander);
+		//zweihanderGUI = new ToolBuildGuiInfo(TDTools.zweihander);
 		shearsGUI = new ToolBuildGuiInfo(TDTools.shears);
 		/*fishingRodGUI = new ToolBuildGuiInfo(TDTools.fishingRod);
 
@@ -145,12 +145,12 @@ public class ClientProxy extends CommonProxy {
 		heatershieldGUI.addSlotPosition(43, 33 + 8);
 		heatershieldGUI.addSlotPosition(34, 51 + 8);
 
-		zweihanderGUI.addSlotPosition(34, 15 + 8);
+		/*zweihanderGUI.addSlotPosition(34, 15 + 8);
 		zweihanderGUI.addSlotPosition(25, 33 + 8);
 		zweihanderGUI.addSlotPosition(43, 33 + 8);
 		zweihanderGUI.addSlotPosition(34, 51 + 8);
 
-		/*hoodGUI.addSlotPosition(34, 15 + 8);
+		hoodGUI.addSlotPosition(34, 15 + 8);
 		hoodGUI.addSlotPosition(43, 33 + 8);
 		hoodGUI.addSlotPosition(34, 51 + 8);
 
@@ -178,7 +178,7 @@ public class ClientProxy extends CommonProxy {
 	public void registerToolGuis() {
 		TinkerRegistryClient.addToolBuilding(roundshieldGUI);
 		TinkerRegistryClient.addToolBuilding(heatershieldGUI);
-		TinkerRegistryClient.addToolBuilding(zweihanderGUI);
+		//TinkerRegistryClient.addToolBuilding(zweihanderGUI);
 		TinkerRegistryClient.addToolBuilding(shearsGUI);
 		/*TinkerRegistryClient.addToolBuilding(fishingRodGUI);
 
@@ -221,13 +221,13 @@ public class ClientProxy extends CommonProxy {
 		heatershieldGUI.addSlotPosition(43, 33);
 		heatershieldGUI.addSlotPosition(34, 51);
 
-		zweihanderGUI.positions.clear();
+		/*zweihanderGUI.positions.clear();
 		zweihanderGUI.addSlotPosition(34, 15);
 		zweihanderGUI.addSlotPosition(25, 33);
 		zweihanderGUI.addSlotPosition(43, 33);
 		zweihanderGUI.addSlotPosition(34, 51);
 
-		/*hoodGUI.positions.clear();
+		hoodGUI.positions.clear();
 		hoodGUI.addSlotPosition(34, 15 + 8);
 		hoodGUI.addSlotPosition(43, 33 + 8);
 		hoodGUI.addSlotPosition(34, 51 + 8);

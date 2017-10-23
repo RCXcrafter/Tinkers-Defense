@@ -588,13 +588,13 @@
 // soul.Steve.story.3.3=What do you think?"
 
 item.roundshield.name=Buckler
-item.roundshield.desc=A small shield with low protection but with the ability to counter attacks, slowing down your opponent. Due to its small size it can't hold as many modifiers.
+item.roundshield.desc=A small shield with low protection but with the ability to counter attacks, slowing down your opponent.
 
 item.heatershield.name=Heater Shield
 item.heatershield.desc=A standard shield designed to protect from all incoming attacks while still being mobile.
 
-item.zweihander.name=Zweihander
-item.zweihander.desc=A great two handed sword designed to take down horse and rider or keep enemies back with its long reach.\n \n x2 Damage against mounted enemies \n Ability: Great Swing - \n Hit all enemies close to you with a great arching slash. Leaves you slowed and weakened temporarily.
+// item.zweihander.name=Zweihander
+// item.zweihander.desc=A great two handed sword designed to take down horse and rider or keep enemies back with its long reach.
 
 item.shears.desc=A set of sharpened blades bound together to allow shearing of sheep and tree leaves.
 
